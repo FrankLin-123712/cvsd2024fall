@@ -1,0 +1,1 @@
+vcs -R -full64 -f rtl_pointadder.f +define+PAT2 | tee rtl_ptadd_p2.log

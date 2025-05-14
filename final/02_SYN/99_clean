@@ -1,0 +1,4 @@
+rm default.svf
+rm *.log
+rm -rf work/
+rm -rf alib-52/

@@ -1,0 +1,5 @@
+vcs -f rtl_03.f -full64 -R +v2k -debug_access+all +maxdelays -negdelay +define+SDF+p2+F1 +neg_tchk -sverilog +define+CYCLE=$1 | tee rtl_syn_p2_F1.log
+vcs -f rtl_03.f -full64 -R +v2k -debug_access+all +maxdelays -negdelay +define+SDF+p2+F2 +neg_tchk -sverilog +define+CYCLE=$1 | tee rtl_syn_p2_F2.log
+vcs -f rtl_03.f -full64 -R +v2k -debug_access+all +maxdelays -negdelay +define+SDF+p2+F3 +neg_tchk -sverilog +define+CYCLE=$1 | tee rtl_syn_p2_F3.log
+vcs -f rtl_03.f -full64 -R +v2k -debug_access+all +maxdelays -negdelay +define+SDF+p2+F4 +neg_tchk -sverilog +define+CYCLE=$1 | tee rtl_syn_p2_F4.log
+vcs -f rtl_03.f -full64 -R +v2k -debug_access+all +maxdelays -negdelay +define+SDF+p2+F5 +neg_tchk -sverilog +define+CYCLE=$1 | tee rtl_syn_p2_F5.log

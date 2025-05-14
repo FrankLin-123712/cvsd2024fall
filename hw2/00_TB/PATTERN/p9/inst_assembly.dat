@@ -1,0 +1,9 @@
+----------------------
+R-type  $rd  $r1  $r2
+I-type  $rd  $r1  im
+S-type  $r2  $r1  im
+B-type  $r1  $r2  im
+----------------------
+addi    $0     $1     1024
+sw      $4     $0     -1025
+eof 

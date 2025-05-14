@@ -1,0 +1,1 @@
+vcs -R -full64 -f gate_sim.f +define+PAT1 | tee gate_sim_p1.log

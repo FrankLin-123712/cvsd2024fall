@@ -1,0 +1,9 @@
+rm novas*
+rm ucli.key
+rm simv
+rm -rf csrc/
+rm -rf nWaveLog/
+rm -rf simv.daidir/
+rm *.log
+rm *.fsdb
+rm -rf spyglass*/

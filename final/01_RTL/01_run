@@ -1,0 +1,1 @@
+vcs -R -full64 -f rtl_sim.f +define+PAT0 | tee rtl_sim_p0.log

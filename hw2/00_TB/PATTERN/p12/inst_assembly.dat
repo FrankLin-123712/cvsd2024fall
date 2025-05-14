@@ -1,0 +1,11 @@
+----------------------
+R-type  $rd  $r1  $r2
+I-type  $rd  $r1  im
+S-type  $r2  $r1  im
+B-type  $r1  $r2  im
+----------------------
+addi    $0     $31    1
+addi    $1     $31    31
+sll     $2     $0     $1
+addi    $31    $2     -1
+eof 

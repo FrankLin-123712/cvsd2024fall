@@ -1,0 +1,1 @@
+vcs -R -full64 -f rtl_sim_hidden.f | tee rtl_sim_hidden.log
